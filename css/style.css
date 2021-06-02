@@ -45,6 +45,9 @@ top: 0.7rem;
 left: 15px;
 color: white;
 }
+#top:hover{
+    background: rgb(0, 255, 157);  
+}
 /* ------------Scroll Top-------------- end*/
 /* ***************header************* */
 .home{
