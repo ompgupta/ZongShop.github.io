@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <title>zong</title>
+</head>
+
+<body onload="Load()">
+  <div id="load">
+    
+  </div>
+  <div id="top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- *********************navigation bar**************** -->
+  <header class="container-fluid home">
+    <nav class="navbar navbar-expand-lg navbar-light pt-5">
+      <a class="navbar-brand" href="#">zong</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">contact us</a>
+          </li>
+          <a href="#"><button class="sign_btn">Sign In</button></a>
+      </div>
+    </nav>
+    <div class="container two_head">
+      <div class="row mt-5">
+        <div class="col-md-6 mt-5">
+          <div class="text" data-aos="zoom-in">
+            <h1>Computer and <br>laptop shop</h1>
+            <strong>Free Multipurpose Responsive</strong><br>
+            <span>Landing Page 2021</span> <br>
+            <button class="btn btn-dark btn_1"><a href="#">Buy Now</a></button>
+          </div>
+        </div>
+        <div class="col-md-6 lap_img" data-aos="slide-up">
+          <div class="top_img">
+            <img src="./images/top_img.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <!-- *************about*********** -->
+
+  <div class="container-fluid" id="about">
+    <div class="container about_txt" data-aos="zoom-in">
+      <h2>About Pcoint</h2>
+      <span>Lorem to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+        gener</span>
+      <br><br><img src="./images/about_img.png" alt=""> <br>
+      <button class="btn btn-dark">Read More</button>
+    </div>
+  </div>
+
+  <!-- **************Services***************** -->
+   <div class="container-fluid" id="services">
+    <div class="container">
+      <h2>Build With Best </h2>
+      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna</span>
+      <div class="row">
+        <div class="col-sm box" data-aos="slide-left">
+          <i class="fas fa-sd-card"></i>
+          <h4>500GB <br>Micro SD Card</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod t dolor in reprehenderit in voluptate velit</p>
+        </div>
+        <div class="col-sm box"  data-aos="slide-right">
+          <i class="fas fa-memory"></i>
+          <h4>100GB <br> Internal Ram</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod t dolor in reprehenderit in voluptate velit</p>
+        </div>
+        <div class="col-sm box"  data-aos="slide-left">
+          <i class="fas fa-award"></i>
+          <h4>100% <br> High Quality</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t dolor in reprehenderit in
+            voluptate velit</p>
+        </div>
+      </div>
+      <button class="btn btn-dark mt-4 p-2 pl-5 pr-5 read_more">Read More</button>
+    </div>
+  </div>
+
+  <!-- **************offer****************************** -->
+  <div class="container-fluid two_box">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="two_box_img" data-aos="zoom-in">
+          <figure><img src="images/leptop.jpg" alt="#" />
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="two_box_img text-light" data-aos="slide-up">
+          <h2><span class="offer">30% </span>Special 0ffer </h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration
+            in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+          <div class="timer">
+            <div>
+              <h3 id="day"></h3>
+              <p>Days</p>
+            </div>
+            <div>
+              <h3 id="hr"></h3>
+              <p>Hours</p>
+            </div>
+            <div>
+              <h3 id="mn"></h3>
+              <p>Minute</p>
+            </div>
+            <div>
+              <h3 id="sec"></h3>
+              <p>Second</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***************Acheivment************************* -->
+   <div class="container acheivment">
+    <h2>Our Acheivment</h2>
+    <div class="row d_flex">
+      <div class="col-sm box_2" data-aos="slide-left">
+        <i class="fa fa-trophy fa-3x mt-4"></i>
+        <h3 class="counter" data-target="800"></h3>
+        <span>Project Completed</span>
+      </div>
+
+      <div class="col-sm box_2" data-aos="slide-right">
+        <i class="fa fa-users fa-3x mt-4"></i>
+        <h3 class="counter" data-target="200"></h3>
+        <span>Our happy clients</span>
+      </div>
+      <div class="col-sm box_2" data-aos="slide-left">
+        <i class="fa fa-tasks fa-3x mt-4"></i>
+        <h3 class="counter" data-target="1000"></h3>
+        <span>Project going on</span>
+      </div>
+    </div>
+  </div> 
+
+  <!-- ***********************contact************************** -->
+   <div id="contact" class="request">
+    <div class="container">
+      <div class="titlepage mb-5" data-aos="slide-up">
+        <h2>Request a Call back</h2>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>
+          incididunt ut labore et dolore magna</span>
+      </div>
+      <div class="row tt">
+        <div class="col-md-7" data-aos="slide-right">
+          <div class="row">
+            <form class="main_form mt-3" onclick="btnHide()">
+              <div class="col-md-12 ">
+                <input class="contactus" placeholder="Name" type="text" name="Nmae">
+              </div>
+              <div class="col-md-12">
+                <input class="contactus" placeholder="Phone number" type="text" name=" Phone number">
+              </div>
+              <div class="col-md-12">
+                <input class="contactus" placeholder="Email" type="text" name="Email">
+              </div>
+              <div class="col-md-12">
+                <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
+              </div>
+              <div class="col-sm-12">
+                <button class="btn btn-dark">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="mane_img" data-aos="zoom-in">
+            <figure><img src="images/mane_img.jpg" alt="#" /></figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- testimonial -->
+  <div class="testimonial container">
+    <h2 class="text-center mt-4">Testimonial</h2>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-caption" data-aos="zoom-in">
+            <h5>John Ro</h5>
+            <p><i class="fas fa-quote-left"></i>There are many variations of passages of Lorem Ipsum available, but the
+              majority have suffered alteration in some form, by injected humour,
+              or randomised words which don't look even slightly believable<i class="fas fa-quote-right"></i></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption"  data-aos="zoom-in">
+            <h5>Peter Sen</h5>
+             <p><i class="fas fa-quote-left"></i>There are many variations of passages of Lorem Ipsum available, but the
+              majority have suffered alteration in some form, by injected humour,
+              or randomised words which don't look even slightly believable<i class="fas fa-quote-right"></i></p> 
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption"  data-aos="zoom-in">
+            <h5>Nick</h5>
+            <p><i class="fas fa-quote-left"></i>There are many variations of passages of Lorem Ipsum available, but the
+              majority have suffered alteration in some form, by injected humour,
+              or randomised words which don't look even slightly believable<i class="fas fa-quote-right"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  footer -->
+   <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="cont" data-aos="slide-up">
+              <h3> <strong class="multi"> Free Multipurpose</strong><br>
+                <span> Responsive Landing Page 2021</span>
+              </h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cont_call" data-aos="slide-up">
+              <h3> <strong class="multi"> Call Now</strong><br>
+                <span> (+91) 12346743890</span>
+              </h3>
+            </div>
+          </div>
+          <div class="col-md-4" >
+            <div class="cont_call">
+              <h3> <strong class="multi">Social</strong><br>
+                <span><button class="fab fa-facebook-square"></button>
+                  <button class="fab fa-instagram"></button>
+                  <button class="fab fa-twitter-square"></button></span>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>© 2019 All Rights Reserved. Design by <a href="#">ZONG Website</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/jquery.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

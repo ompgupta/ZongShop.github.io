@@ -1,0 +1,263 @@
+/* ****************mobile device******************* */
+@media (min-width:320px) and (max-width:480px){
+    h2{
+        font-size: 50px;
+        font-family: 'Balsamiq Sans', 'cursive';
+        font-weight: bold;
+    }
+    #top{
+        position: fixed;
+        width: 4%;
+        height: 8vh;
+        background: rgb(0, 206, 127);
+        bottom: -0px;
+        right: -0px;
+        z-index: 99999;
+        margin: 0 25px 20px 0;
+        border-radius: 50%;
+        cursor: pointer;
+       
+    }
+    #top i{
+    position: absolute;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    top: 0.7rem;
+    left: 15px;
+    color: white;
+    }
+    /* ***************header************* */
+    .home{
+        width: auto;
+        height: auto;     }
+    .home::before{
+     display: none;
+    }
+    .navbar-toggler{
+  border: none;
+    }
+    .navbar-toggler .navbar-toggler-icon{
+        background: url('../images/menu_icon.png');
+        background-repeat: no-repeat;
+        color: black !important;
+    }
+    a{
+        font-size: 15px;
+        text-transform: uppercase;
+        color: black !important;
+        font-weight: 400;
+    }
+    .navbar-brand{
+        margin-left: 0px;
+    } 
+    .collapse{
+        background-color: rgb(7, 216, 146);
+        padding: 20px 0px 35px 20px;
+   
+    }
+    li :hover{
+        color:white !important ;
+    }
+    .btn_1{
+        border-radius: 25px;
+        padding: 10px 50px;
+        border-radius: 10px; 
+        margin-top: 10px;  
+    }
+    
+    .btn_1:hover{
+        background-color: rgb(1, 226, 151);
+        color: black;
+        transition: 0.5s;
+        border: none;
+        border-radius: 30px;
+    }
+    .top_img img{
+        width: 110%;
+        height: 70vh;
+    }
+    .text h1{
+        font-size: 3rem;
+    line-height: 1;
+    margin-top: 0px !important;
+    }
+    .text strong{
+        line-height: 0;
+        font-weight: 800;
+    }
+    .text span{
+        font-size: 2rem;
+        line-height: 1.5;
+    }  
+    .btn_1 a{
+      color: white !important;
+      font-weight: 600;
+    }
+    .btn_1 a:hover{
+       color: white !important;
+    }
+    .lap_img{
+        margin-top: 50px;
+        background : linear-gradient(to bottom,#0aec98 0% , #2bcc91 100%);
+    }
+    .top_img img{
+        width: 100%;
+        height: 40vh;
+        margin-top: 40px;
+    }
+    /* ***************about************* */
+#about{
+    width: auto;
+    height: auto;
+}
+.about_txt{
+    padding: 50px 0 40px 0;
+}
+.about_txt span{
+    font-size: 1.2rem;
+    line-height:2;
+}
+.about_txt img{
+    width: 98%;
+    height: 27vh;
+    padding: 30px 0 10px 0;
+}
+/* ----------------services------------ */
+#services{
+    margin-top: 20%;
+}
+#services h2{
+    font-size: 2.7rem;
+}
+#services span{
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    padding-bottom: 90px;
+}
+#services .row{
+    margin-top: 40px;
+}
+.read_more{
+    padding: 15px 47px!important;
+    font-size: 1.2rem;
+}
+/* +++++++++++++++++offers++++++++++++++++++ */
+
+.two_box .col-md-5{
+height: 35vh;
+}
+.two_box_img h2{
+    font-size: 2.5rem;
+}
+.two_box_img img{
+    width: 94%;
+    height: auto;
+}
+.timer{
+    left:0%;
+    position: absolute;
+    width: 100%;
+  top: 60%;
+}
+.timer div{
+  width:18%;
+  height: 10vh;  
+}
+.timer div p{
+    line-height: 3.5;
+    font-size: 1.2rem;
+}
+/* <!-- ***************Acheivment************************* --> */
+.acheivment{
+    width: 100% !important;
+    position: relative;
+    top:130px;
+    text-align: center;
+    height: auto;
+}
+.box_2{
+    width: 100%;
+}
+/* <!-- ***********************contact************************** --> */ 
+#contact{
+    width: 100%;
+    height: auto;
+    top:8rem
+}
+.main_form button{
+ margin: 20px 0 0 30%;
+ background-color: rgb(0, 0, 0);
+ padding: 10px 60px;
+ border-radius: 10px;
+ font-size: 1.1rem;
+}
+.main_form input{
+    padding: 13px 40% 13px 0;
+}
+.main_form button{
+ left: 25%;
+ padding: 13px 60px;
+}
+textarea{
+    padding: 13px 50% 13px 0;
+}
+/* -------------------testimonial--------------- */
+ .testimonial{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top:15rem;
+}
+.carousel-item{
+        height: 50vh;
+        width: 100%;
+        color: black;
+}
+.carousel-item h5{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.carousel-item p{
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+.carousel-indicators li{
+    background-color: rgb(0, 180, 120);
+    width: 5%;
+    height: 2vh;
+} */
+
+/* ----------footer------------------- */
+.footer{
+    top:300rem;
+}
+.footer button{
+    background-color: white;
+    border: none;
+    margin-right: 8px;
+    font-size: 2.5rem;
+}
+.copyright p a{
+   color: wheat !important;
+   padding-left: 35px !important;
+}
+
+#top_btn{
+    position: absolute;
+    width: 8%;
+    height: 5vh;
+    background: red;
+}
+/* ------------Scroll Top-------------- start */
+#top{
+    width: 15%;
+}
+#top i{
+top: 1rem;
+font-size: 30px;
+}
+/* ------------Scroll Top-------------- end*/
+
+}

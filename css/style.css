@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: aqua; */  
+  font-family: 'Varela Round', sans-serif;
+}
+#load{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background:white url('../images/load.gif') no-repeat center;
+    z-index: 999999;
+}
+h2{
+    font-size: 50px;
+    font-family: 'Balsamiq Sans', 'cursive';
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+}
+.btn:focus{
+    outline: none;
+}
+/* ------------Scroll Top-------------- start */
+#top{
+    position: fixed;
+    width: 4%;
+    height: 8vh;
+    background: rgb(6, 148, 94);
+    bottom: -0px;
+    right: -0px;
+    z-index: 99999;
+    margin: 0 25px 20px 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#top i{
+position: absolute;
+font-size: 28px;
+text-align: center;
+font-weight: bold;
+top: 0.7rem;
+left: 15px;
+color: white;
+}
+/* ------------Scroll Top-------------- end*/
+/* ***************header************* */
+.home{
+    position: relative;
+    width: 90%;
+    height: 120vh;
+    background-color: white;
+}
+.home::before{
+    content: '';
+    position: absolute;
+    width: 65%;
+    height: 90vh;
+ background : linear-gradient(to bottom,#0aec98 0% , #2bcc91 100%);
+   padding: 29% 0;
+    left: 40%;
+    top: 1%;
+ border-radius: 48% 0% 0 48%;
+ overflow-x: hidden;
+}
+a{
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white !important;
+    font-weight: 600;
+}
+.navbar-brand{
+    color: #0aec98 !important;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', 'cursive';
+    margin-left: 50px;
+    letter-spacing: 4px;
+}
+li{
+    margin-right: 10px;
+}
+li :hover{
+    color:black !important ;
+    transition: 0.7s;
+}
+.sign_btn{
+    border-radius: 20px;
+    padding: 8px 25px;
+    background-color: black;
+    border: none;
+ font-size: 1.2rem;
+ color: white;
+}
+.sign_btn:hover{
+    color: rgb(21,253, 176);
+    transition: 0.5s;
+}
+.btn_1{
+    border-radius: 25px;
+    padding: 10px 50px;
+    border-radius: 10px; 
+    margin-top: 10px;  
+}
+
+.btn_1:hover{
+    background-color: rgb(1, 226, 151);
+    color: black;
+    transition: 0.5s;
+    border: none;
+    border-radius: 30px;
+}
+.top_img img{
+    width: 110%;
+    height: 70vh;
+}
+.text h1{
+    font-family: 'Balsamiq Sans', 'cursive';
+    font-size: 4rem;
+    font-weight: bold; 
+line-height: 1.2;
+margin-bottom: 50px;
+}
+.text strong{
+    font-size: 1.5rem;
+    line-height: 1;
+}
+.text span{
+    font-weight: bold;
+    font-size: 2.3rem;
+    line-height: 2;
+    font-family: 'Balsamiq Sans', 'cursive';
+    color: rgb(2, 206, 155);
+    letter-spacing: 2px;
+}  
+
+/* ***************about************* */
+#about{
+    width: 100%;
+    height: auto;
+    background: rgba(3, 3, 3, 0.877);
+    position: relative;
+    margin-top: 30px;
+}
+.about_txt{
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+}
+.about_txt span{
+    font-size: 1.2rem;
+    line-height: 3;
+}
+.about_txt .btn{
+    background-color: black;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.about_txt .btn:hover{
+    background-color: rgb(255, 82, 20);
+    transition: 0.5s;
+    border: none;
+}
+
+/* ----------------services------------ */
+#services{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    text-align: center;
+    overflow-x: hidden;
+}
+#services span{
+    font-weight: 600;
+    line-height: 3;
+}
+#services .col-sm{
+    width: 90% !important;
+    margin: 10px;
+    height: 40vh;
+    border-radius: 30px;
+    background: #3fe4a5; 
+    color: white;
+    margin-top: 30px;
+}
+.box:hover{
+    transform: translateY(-10px);
+    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.712);
+}
+.box:hover h4, .box:hover i{
+    color: rgb(253, 255, 113);
+}
+#services i{
+   line-height: 2;
+   font-size: 40px;
+
+}
+#services h4{
+    font-weight: bold;
+font-size: 2rem;
+}
+
+/* +++++++++++++++++offers++++++++++++++++++ */
+.two_box{
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 70px;
+    background-color: #36e4a4;
+}
+.two_box_img{
+    width: 100%;
+    height: 50vh;
+}
+.two_box_img img{
+    width: 94%;
+    height: auto;
+}
+.timer{
+    /* border: 2px solid red; */
+    left:5%;
+    position: absolute;
+    width: 45%;
+  top: 50%;
+}
+.timer div{
+  width:21%;
+  height: 12vh;  
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+  background: rgba(71, 71, 71, 0.979);
+  border-radius: 20px;
+  box-shadow: -5px 5px 30px rgb(0, 112, 88);
+}
+.timer div h3{
+  font-size: 2rem;
+}
+.timer div p{
+    line-height: 5;
+    font-size: 1.2rem;
+}
+
+/* <!-- ***************Acheivment************************* --> */
+.acheivment{
+    width: 100%;
+    position: relative;
+    top:130px;
+    text-align: center;
+    height: 80vh;
+    overflow-x: hidden;
+}
+.box_2{
+    width: 10%;
+    margin: 30px;
+    height: 35vh;
+    border-radius: 30px;
+    background: #3fe4a5; 
+    color: white;    
+    background-color: rgb(12, 238, 163); 
+    padding-top:25px;
+}
+.box_2 h3{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 10px;
+    /* color: rgb(243, 255, 75); */
+}
+.box_2 span{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.box_2:hover{
+    transform: translateY(-10px);
+    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.712);
+}
+.box_2:hover h3{
+    color: rgb(253, 255, 113);
+}
+
+/* <!-- ***********************contact************************** --> */
+#contact{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+.titlepage span{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.tt{
+    width: auto;
+    background-color: rgba(27, 31, 39, 0.89);
+}
+.mane_img img{
+    width: 100%;
+    height:60vh;
+}
+.main_form input{
+    padding: 13px 200% 13px 0;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+    border: none;
+}
+.main_form input,textarea:focus{
+    outline: none;
+}
+.main_form button{
+ margin: 20px 0 0 90%;
+ background-color: rgb(0, 0, 0);
+ padding: 10px 60px;
+ border-radius: 10px;
+ font-size: 1.1rem;
+}
+.main_form button:hover{
+    background-color: rgb(21, 253, 176);
+    color: black;
+    transition: 0.5s;
+    border: none;
+    border-radius: 30px;
+}
+textarea{
+    padding: 13px 210% 13px 0;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+}
+
+/* -------------------testimonial--------------- */
+.testimonial{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    color: black;
+    top:10px;
+}
+.carousel-item{
+        height: 30vh;
+}
+.carousel-item h5{
+    color: rgb(0, 218, 145);
+    font-size: 2rem;
+    font-weight: 900;
+}
+.carousel-item p{
+    color: black;
+    line-height: 2;
+}
+.carousel-item i{
+    color: rgb(0, 218, 145);
+    font-size: 1.2rem;
+    padding:0 10px;
+}
+.carousel-indicators li{
+    background-color: rgb(0, 180, 120);
+    width: 2%;
+    height: 2vh;
+}
+
+/* *******************footer***************** */
+.footer{
+    border-top: 1px solid rgb(77, 77, 77);
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding-top:50px;
+}
+.footer h3{
+    font-weight: 900;
+    font-family: 'Balsamiq Sans', 'cursive';
+    color: rgb(12, 185, 128);
+}
+.footer span{
+    color: black;
+    font-weight: 600;
+}
+.footer button{
+    background-color: white;
+    border: none;
+    margin-right: 8px;
+}
+.footer button:hover{
+  color: #06cc83;
+}
+.copyright{
+    width: 100%;
+    height: 10vh;
+    background: black;
+    position: absolute;
+margin-top: 30px;
+color: white;
+text-align: center;
+padding: 15px 0;
+}
+.copyright p a:hover{
+    color: aqua !important;
+    transform: 0.5s !important;
+}
