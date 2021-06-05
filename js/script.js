@@ -1,4 +1,4 @@
-function Load(){
+function loadFun(){ 
     document.getElementById('load').style.display ='none';
 }
 // -------------timeInterval----------------
